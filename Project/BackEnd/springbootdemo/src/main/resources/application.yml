@@ -1,0 +1,23 @@
+server:
+  port: 7078
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/QuestionBank
+    username: root
+    password: 123456789
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
+
+
+  thymeleaf:
+    cache: false
+#  devtools:
+#    restart:
+#      enabled: true # 配置热部署
+#      additional-paths: src/main/java
+#      exclude: WEB-INF/**
+
+
